@@ -1,15 +1,11 @@
 // app global css in SCSS form
 @font-face {
-  font-family: "Sen";
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 600;
-  src: url("src/css/fonts/Sen-Regular.otf");
+  src: url("src/css/fonts/Rubik-Regular.ttf");
 }
 @font-face {
-  font-family: "Sen-extra-bold";
-  src: url("src/css/fonts/Sen-ExtraBold.otf");
-}
-@font-face {
-  font-family: "Sen-bold";
-  src: url("src/css/fonts/Sen-Bold.otf");
+  font-family: "Rubik-bold";
+  src: url("src/css/fonts/Rubik-Regular.ttf");
 }
