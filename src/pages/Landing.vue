@@ -266,7 +266,7 @@ import partnersBranding from "../components/partners.vue";
 import Join from "../components/Join.vue";
 import End from "../components/End.vue";
 export default {
-  name: "IndexPage",
+  name: "Landing",
   data() {
     return {
       slide: "team-members",
@@ -289,7 +289,6 @@ export default {
 @import "tailwindcss/utilities";
 .t1 {
   font-family: "Rubik-bold";
-  font-weight: bold;
 }
 .ht-btn,
 .ht-btn:active,

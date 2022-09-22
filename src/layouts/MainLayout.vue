@@ -9,7 +9,7 @@
           <!-- hidden for medium screens -->
           <div class="ti text-grey-5 text-sm space-x-16">
             <a href="#" class="hover:text-secondary">LANDING</a>
-            <a href="#home" class="hover:text-primary">HOME</a>
+            <a href="#home" class="hover:text-secondary">HOME</a>
             <a href="#about" class="hover:text-secondary">ABOUT</a>
             <a href="#requirements" class="hover:text-secondary"
               >REQUIREMENTS</a

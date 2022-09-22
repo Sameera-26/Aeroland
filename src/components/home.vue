@@ -56,18 +56,15 @@ export default defineComponent({
 @import "tailwindcss/utilities";
 .t1 {
   font-family: "Rubik-bold";
-  font-weight: bold;
 }
 .t2 {
   font-family: "Rubik";
-  font-weight: bold;
 }
 .ht-btn,
 .ht-btn:active,
 .ht-btn:focus,
 .ht-btn:hover {
   color: #fff;
-
   background: linear-gradient(218deg, #5e61e7, #9c7af2 50%, #5e61e7);
 }
 .a,

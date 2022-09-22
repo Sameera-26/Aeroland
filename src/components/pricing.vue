@@ -1,154 +1,160 @@
 <template>
-  <div class="row justify-center mx-8 my-12">
-        <!-- COLUMN-1 -->
-        <div class="col-md-2 col-lg-2 col-xs-10 col-sm-6">
-          <q-card
-            class="my-card rounded-md border-2 border-grey-5 shadow-xl hover:shadow-[#bbb0e5] transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none ..."
-            style="width: 290px; height: 420px"
-          >
-            <q-item>
-              <q-item-section class="text-center">
-                <div class="my-6 mx-9">
-                  <img src="~assets/avocado.png" size="lg" class="mx-16" />
-                  <div class="-mx-14" style="width: 300px">
-                    <div class="t1 text-h4 my-3">Free</div>
-                    <div class="t2 text-grey-7 text-body1 my-3">0/month</div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      03 Projects
-                    </div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      Power And Predictive Dialing
-                    </div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      Quality & Customer Experience
-                    </div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      Try for free, forever!
-                    </div>
-                    <q-btn
-                      color="primary"
-                      class="capitalize mt-5"
-                      size="md"
-                      label="Get Started"
-                    />
+  <div class="bg-[#f6f5f9] -mt-2 py-12 justify-center" id="pricing">
+    <div class="t1 text-h2 text-[#2e3280] text-center q-mt-xl q-my-xl">
+      Affordable for everyone!
+    </div>
+    <div class="t2 text-body1 text-[#949097] text-center">
+      If you are planning on developing a product landing app or website, take a
+      look
+    </div>
+    <div class="t2 text-body1 text-[#949097] text-center">
+      at this beautiful-crafted and error-free HTML template.
+    </div>
+    <div class="row justify-center mx-8 my-12">
+      <!-- COLUMN-1 -->
+      <div class="col-md-2 col-lg-2 col-xs-10 col-sm-6">
+        <q-card
+          class="my-card rounded-md border-2 border-grey-5 shadow-xl hover:shadow-[#bbb0e5] transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none ..."
+          style="width: 290px; height: 420px"
+        >
+          <q-item>
+            <q-item-section class="text-center">
+              <div class="my-6 mx-9">
+                <img src="~assets/avocado.png" size="lg" class="mx-16" />
+                <div class="-mx-14" style="width: 300px">
+                  <div class="t1 text-h4 my-3">Free</div>
+                  <div class="t2 text-grey-7 text-body1 my-3">0/month</div>
+                  <div class="t2 text-grey-7 text-body1 my-3">03 Projects</div>
+                  <div class="t2 text-grey-7 text-body1 my-3">
+                    Power And Predictive Dialing
                   </div>
-                </div>
-              </q-item-section>
-            </q-item>
-          </q-card>
-        </div>
-        <!-- COLUMN-2 -->
-        <div class="col-md-2 col-lg-2 col-xs-10 col-sm-6 mx-12">
-          <q-card
-            class="my-card rounded-md border-2 border-grey-5 shadow-xl hover:shadow-[#bbb0e5] transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none ..."
-            style="width: 290px; height: 420px"
-          >
-            <q-item>
-              <q-item-section class="text-center">
-                <div class="my-6 mx-9">
-                  <img src="~assets/rocket.png" size="lg" class="mx-16" />
-                  <div class="-mx-14" style="width: 300px">
-                    <div class="t1 text-h4 my-3">Personal</div>
-                    <div class="t2 text-grey-7 text-body1 my-3">19/month</div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      30 Projects
-                    </div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      Power And Predictive Dialing
-                    </div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      Quality & Customer Experience
-                    </div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      Try for free, forever!
-                    </div>
-                    <q-btn
-                      color="primary"
-                      class="capitalize mt-5"
-                      size="md"
-                      label="Get Started"
-                    />
+                  <div class="t2 text-grey-7 text-body1 my-3">
+                    Quality & Customer Experience
                   </div>
-                </div>
-              </q-item-section>
-            </q-item>
-          </q-card>
-        </div>
-        <!-- COLUMN-3 -->
-        <div class="col-md-2 col-lg-2 col-xs-10 col-sm-6">
-          <q-card
-            class="my-card rounded-md border-2 border-grey-5 shadow-xl hover:shadow-[#bbb0e5] transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none ..."
-            style="width: 290px; height: 420px"
-          >
-            <q-item>
-              <q-item-section class="text-center">
-                <div class="my-6 mx-9">
-                  <img src="~assets/cactus.png" size="lg" class="mx-16" />
-                  <div class="-mx-14" style="width: 300px">
-                    <div class="t1 text-h4 my-3">Group</div>
-                    <div class="t2 text-grey-7 text-body1 my-3">29/month</div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      50 Projects
-                    </div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      Power And Predictive Dialing
-                    </div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      Quality & Customer Experience
-                    </div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      Try for free, forever!
-                    </div>
-                    <q-btn
-                      color="primary"
-                      class="capitalize mt-5"
-                      size="md"
-                      label="Get Started"
-                    />
+                  <div class="t2 text-grey-7 text-body1 my-3">
+                    Try for free, forever!
                   </div>
+                  <q-btn
+                    color="primary"
+                    class="capitalize mt-5"
+                    size="md"
+                    label="Get Started"
+                  />
                 </div>
-              </q-item-section>
-            </q-item>
-          </q-card>
-        </div>
-        <!-- COLUMN-4 -->
-        <div class="col-md-2 col-lg-2 col-xs-10 col-sm-6 mx-12">
-          <q-card
-            class="my-card rounded-md border-2 border-grey-5 shadow-xl hover:shadow-[#bbb0e5] transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none ..."
-            style="width: 290px; height: 420px"
-          >
-            <q-item>
-              <q-item-section class="text-center">
-                <div class="my-6 mx-9">
-                  <img src="~assets/fire.png" size="lg" class="mx-16" />
-                  <div class="-mx-14" style="width: 300px">
-                    <div class="t1 text-h4 my-3">Enterprise</div>
-                    <div class="t2 text-grey-7 text-body1 my-3">49/month</div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      Unlimited Projects
-                    </div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      Power And Predictive Dialing
-                    </div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      Quality & Customer Experience
-                    </div>
-                    <div class="t2 text-grey-7 text-body1 my-3">
-                      Try for free, forever!
-                    </div>
-                    <q-btn
-                      color="primary"
-                      class="capitalize mt-5"
-                      size="md"
-                      label="Get Started"
-                    />
-                  </div>
-                </div>
-              </q-item-section>
-            </q-item>
-          </q-card>
-        </div>
+              </div>
+            </q-item-section>
+          </q-item>
+        </q-card>
       </div>
+      <!-- COLUMN-2 -->
+      <div class="col-md-2 col-lg-2 col-xs-10 col-sm-6 mx-12">
+        <q-card
+          class="my-card rounded-md border-2 border-grey-5 shadow-xl hover:shadow-[#bbb0e5] transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none ..."
+          style="width: 290px; height: 420px"
+        >
+          <q-item>
+            <q-item-section class="text-center">
+              <div class="my-6 mx-9">
+                <img src="~assets/rocket.png" size="lg" class="mx-16" />
+                <div class="-mx-14" style="width: 300px">
+                  <div class="t1 text-h4 my-3">Personal</div>
+                  <div class="t2 text-grey-7 text-body1 my-3">19/month</div>
+                  <div class="t2 text-grey-7 text-body1 my-3">30 Projects</div>
+                  <div class="t2 text-grey-7 text-body1 my-3">
+                    Power And Predictive Dialing
+                  </div>
+                  <div class="t2 text-grey-7 text-body1 my-3">
+                    Quality & Customer Experience
+                  </div>
+                  <div class="t2 text-grey-7 text-body1 my-3">
+                    Try for free, forever!
+                  </div>
+                  <q-btn
+                    color="primary"
+                    class="capitalize mt-5"
+                    size="md"
+                    label="Get Started"
+                  />
+                </div>
+              </div>
+            </q-item-section>
+          </q-item>
+        </q-card>
+      </div>
+      <!-- COLUMN-3 -->
+      <div class="col-md-2 col-lg-2 col-xs-10 col-sm-6">
+        <q-card
+          class="my-card rounded-md border-2 border-grey-5 shadow-xl hover:shadow-[#bbb0e5] transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none ..."
+          style="width: 290px; height: 420px"
+        >
+          <q-item>
+            <q-item-section class="text-center">
+              <div class="my-6 mx-9">
+                <img src="~assets/cactus.png" size="lg" class="mx-16" />
+                <div class="-mx-14" style="width: 300px">
+                  <div class="t1 text-h4 my-3">Group</div>
+                  <div class="t2 text-grey-7 text-body1 my-3">29/month</div>
+                  <div class="t2 text-grey-7 text-body1 my-3">50 Projects</div>
+                  <div class="t2 text-grey-7 text-body1 my-3">
+                    Power And Predictive Dialing
+                  </div>
+                  <div class="t2 text-grey-7 text-body1 my-3">
+                    Quality & Customer Experience
+                  </div>
+                  <div class="t2 text-grey-7 text-body1 my-3">
+                    Try for free, forever!
+                  </div>
+                  <q-btn
+                    color="primary"
+                    class="capitalize mt-5"
+                    size="md"
+                    label="Get Started"
+                  />
+                </div>
+              </div>
+            </q-item-section>
+          </q-item>
+        </q-card>
+      </div>
+      <!-- COLUMN-4 -->
+      <div class="col-md-2 col-lg-2 col-xs-10 col-sm-6 mx-12">
+        <q-card
+          class="my-card rounded-md border-2 border-grey-5 shadow-xl hover:shadow-[#bbb0e5] transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none ..."
+          style="width: 290px; height: 420px"
+        >
+          <q-item>
+            <q-item-section class="text-center">
+              <div class="my-6 mx-9">
+                <img src="~assets/fire.png" size="lg" class="mx-16" />
+                <div class="-mx-14" style="width: 300px">
+                  <div class="t1 text-h4 my-3">Enterprise</div>
+                  <div class="t2 text-grey-7 text-body1 my-3">49/month</div>
+                  <div class="t2 text-grey-7 text-body1 my-3">
+                    Unlimited Projects
+                  </div>
+                  <div class="t2 text-grey-7 text-body1 my-3">
+                    Power And Predictive Dialing
+                  </div>
+                  <div class="t2 text-grey-7 text-body1 my-3">
+                    Quality & Customer Experience
+                  </div>
+                  <div class="t2 text-grey-7 text-body1 my-3">
+                    Try for free, forever!
+                  </div>
+                  <q-btn
+                    color="primary"
+                    class="capitalize mt-5"
+                    size="md"
+                    label="Get Started"
+                  />
+                </div>
+              </div>
+            </q-item-section>
+          </q-item>
+        </q-card>
+      </div>
+    </div>
+  </div>
 </template>
 <script>
 import { defineComponent } from "vue";

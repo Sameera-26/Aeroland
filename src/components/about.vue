@@ -126,7 +126,6 @@ export default defineComponent({
 @import "tailwindcss/utilities";
 .t1 {
   font-family: "Rubik-bold";
-  font-weight: bold;
 }
 .ht-btn,
 .ht-btn:active,
